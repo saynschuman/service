@@ -1,0 +1,24 @@
+{
+  "name": "Спевка",
+  "short_name": "Спевка",
+  "description": "Приложение для хористов",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "icons": [
+    {
+      "src": "app-icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

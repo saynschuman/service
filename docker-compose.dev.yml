@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  database:
+    image: postgres:11
+    env_file:
+      - configs/app/dev_env
+    ports:
+      - "127.0.0.1:${POSTGRES_POST:-5432}:5432"
+    volumes:
+      - /var/lib/postgresql/data
+      - ./configs:/code
+
+volumes:
+  database_volume:

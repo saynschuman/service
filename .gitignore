@@ -1,0 +1,20 @@
+.idea/
+venv/
+*.sqlite3
+__pycache__/
+env
+8000
+static_files/
+
+#development
+frontend/public/styles.css
+.DS_Store
+
+#certboot
+data
+
+# node_modules
+node_modules
+
+#rest
+*.rest

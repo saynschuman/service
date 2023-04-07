@@ -1,0 +1,4 @@
+SECRET_KEY=mgtazac1v)x30lm@6d-5hfv7ac0@=w2uwjccxgy=@25gcaodqu
+POSTGRES_USER=lms_user
+POSTGRES_PASSWORD=lms_password
+POSTGRES_DB=lms
